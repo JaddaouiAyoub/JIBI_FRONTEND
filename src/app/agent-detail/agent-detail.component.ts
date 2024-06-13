@@ -1,5 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Agent } from '../model/agent.model';
+// @ts-ignore
+import {Agent} from "../model/Agent.model";
 
 @Component({
   selector: 'app-agent-detail',
